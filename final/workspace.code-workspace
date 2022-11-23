@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "devf",
+			"path": "../devf"
+		},
+		{
+			"name": "tarea-cssgrid",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tarea-cssgrid"
+	}
+}

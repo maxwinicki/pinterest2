@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="stle.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <script src="https://kit.fontawesome.com/f245f257d3.js" crossorigin="anonymous"></script>
+    <script src="pinterest.js"></script>
+    <link rel="icon" href="http://assets.stickpng.com/images/580b57fcd9996e24bc43c52e.png">
+
+</head>
+<body>
+<div class="page1">
+    <nav>
+    <a href="https://www.pinterest.com.mx/" target="_BLANK">
+        <div class="logo" >
+                <img src="https://i.pinimg.com/originals/1b/76/01/1b7601e035a83c13c208b4ec905ee6d9.png" alt="Logo pinterest" >
+                <p class="logo-texto">Pinterest</p>
+        </div>
+    </a>
+            <ul class="ul">
+                <li class="ul-items"><a href="#">Infomación</a></li>
+                <li class="ul-items"><a href="#">Empresa</a></li>
+                <li class="ul-items"><a href="#">Blog</a></li>
+                <li class="button"><input type="button" onclick="inicio()"id="button"value="Inicia sesión" class="button1"></li>
+                <li class="button"><input type="button" value="Regístrate" class="button2"></li>
+            </ul>
+
+    </nav>
+    <div class="regla"></div>
+    <h1 class="descubre">Descubre tu próxima</h1>
+    <section class="section1">
+
+        <ul class="section1-ul">
+            <li class="section1-ul-li-1"><h1>idea de atuendos de verano</h1></li>
+            <li class="section1-ul-li-2"><h1>actividad para niños</h1></li>
+            <li class="section1-ul-li-3"><h1>una cena especial</h1></li>
+            <li class="section1-ul-li-4"><h1>proyecto de bricolaje</h1></li>
+        </ul>
+    </section>
+    <ul class="ul-dot">
+        <li class="fa-solid fa-circle dot1"></li>
+        <li class="fa-solid fa-circle dot2"></li>
+        <li class="fa-solid fa-circle dot3"></li>
+        <li class="fa-solid fa-circle dot4"></li>
+    </ul>
+    <section class="section2">
+        <div class="img1"><img src="https://i.pinimg.com/736x/d6/58/0e/d6580ec416ff143068ccce7080d3b6e0.jpg" alt="imagen"></div>
+        <div class="img2"><img src="https://i.pinimg.com/originals/cd/fd/c9/cdfdc98067c84af4846d066ddba2fbd0.jpg" alt="imagen"></div>
+        <div class="img3"><img src="https://i.pinimg.com/736x/99/2e/53/992e5387ac841e5accacee11c06ddb5b.jpg" alt="imagen"></div>
+        <div class="img4"><img src="https://i.pinimg.com/736x/48/e2/43/48e243de2f6cb6a3f5371aedc5f03072.jpg" alt="imagen"></div>
+        <div class="img5"><img src="https://i.pinimg.com/736x/15/b8/df/15b8df57e861094a7712c1a0a0a6b81f.jpg" alt="imagen"></div>  
+    </section>
+    <footer>
+        <div class="footer"><p class="footer-p">Aquí te mostramos cómo funciona</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </footer>
+<ul>
+    <li class="fa-solid fa-circle-chevron-down"></li> 
+</ul>
+</div>
+<div id="inicio2" class="inicio2 inicio1"><div class="inicioSesion">
+    <h2 class="titulo">Inicio de sesion</h2>
+    <input class="registro" id="email"type="text">
+    <input class="registro" id="password"type="password">
+    <button class="registro" onclick="login()">Enviar</button>
+    <p class="tache" onclick="salir()" id="tache">x</p>
+</div></div>
+
+</body>
+</html>

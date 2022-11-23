@@ -1,0 +1,149 @@
+*{
+    font-family:  Helvetica, sans-serif;
+}
+.grid-container{
+    width: 21%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.box{
+    margin-top:20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+
+}
+
+.user{
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    margin-right: 5px;
+
+}
+
+.user-div{
+    margin-top:10px ;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width:30px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 20%;
+    padding-left:20px ;
+
+
+}
+
+.menu li{
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+
+.m1{
+    padding: 15px;
+    background-color: black;
+    border-radius:23px ;
+    color: #fff;
+}
+
+.buscador{
+    width: 60%;
+    height: 45px;
+    background-color: #eee;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.over-flow{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.box:hover:hover{
+    cursor: pointer;
+}
+
+.options{
+    width: 25px;
+}
+.profile{
+    width: 35px;
+}
+.message{
+    width: 28px;
+}
+.menu{
+    width: 20%;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    *{
+        color: #fff;
+    }
+    .cont{
+        width: 100%;
+        display: block;
+    }
+
+    .grid-container{
+        width: 70%;
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    body{
+        background-color: rgba(155, 0, 0, 0.7);
+    }
+    .buscador{
+        float: right;
+    }
+    .m2{
+        display: none;
+    }
+
+}
+
+@media(max-width: 900px){
+    .menu3{
+        display: none;
+    }
+    .m2{
+        display: none;
+    }
+}
+    

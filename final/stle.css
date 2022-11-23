@@ -1,0 +1,399 @@
+body{
+    font-weight: 100;
+    font-size: 17px;
+    font-family: Kanit;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+nav{
+    padding: 20px 10px 0px 30px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+
+}
+.logo img{
+    width: 45px;
+}
+
+.logo{
+    display: flex;
+    float:left;
+    color: #e60023;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    top: -3px;
+}
+
+.logo-texto{
+    margin-left: 0px ;
+}
+
+
+.ul{
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+.ul-items{
+    list-style: none;
+    float: left;
+    margin-right: 35px;
+}
+
+.button1{
+    background-color: #e60023;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    line-height: .5;
+    border: none;
+}
+
+.button2{
+    background-color: #eee;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #000;
+    line-height: .5;
+    border: none;
+}
+
+
+.button{
+    list-style:none;
+    margin-right: 10px;
+}
+
+.ul-items a{
+    text-decoration: none;
+    color: #000;
+}
+
+.ul-items a:hover{
+    text-decoration:underline;
+}
+.button1:hover{
+    cursor:pointer;
+    background-color:#b60023
+}
+
+.button2:hover{
+    cursor:pointer;
+    background-color: #ddd;
+}
+
+.regla{
+    width: 100%;
+    height: 180px;
+    background-color: #fff;
+}
+
+.descubre{
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+.section1 h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+}
+
+.section1{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.section1-ul{
+    animation: cambiar 10s infinite;
+    list-style: none;
+    position: relative;
+    z-index: 200;
+    
+}
+
+.section1-ul-li-1{
+    color: rgb(40, 107, 200);
+}
+.section1-ul-li-2{
+    color: #76B995;    
+}
+.section1-ul-li-3{
+    color: #D5A51B;   
+}
+.section1-ul-li-4{
+    color: #75C99C;
+
+}
+
+ @keyframes cambiar {
+    0%{margin-top: -2px;}
+    0%{margin-top: -2px;}
+    25%{margin-top: -65px;}
+    50%{margin-top: -65px;}
+    50%{margin-top: -128px;}
+    75%{margin-top: -128px;}
+    75%{margin-top: -185px;}
+    95%{margin-top: -185px;}
+    100%{margin-top: 0;}
+ }
+
+ .ul-dot{
+     font-size: 10px;
+     padding-top: 20px;
+     text-align: center;
+     color: #ddd;
+ }
+
+
+ .dot1{
+     animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-name: dot1;
+ }
+
+ @keyframes dot1{
+    0%{color: rgb(40, 107, 200);}
+    25%{color: rgb(40, 107, 200);}
+    25%{color: #ddd;}
+    100%{color: #ddd;}
+ }
+ .dot2{
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: dot2;
+}
+
+@keyframes dot2{
+   0%{color: #ddd;}
+   25%{color: #76B995;}
+   50%{color: #76B995;}
+   50%{color: #ddd;}
+   100%{color: #ddd;}
+}
+.dot3{
+    animation-iteration-count:infinite ;
+    animation-duration: 10s;
+    animation-name: dot3;
+}
+@keyframes dot3{
+    0%{color: #ddd;}
+    25%{color: #ddd;}
+    50%{color: #ddd;}
+    50%{color: #D5A51B;}
+    75%{color: #D5A51B;}
+    75%{color: #ddd}
+    100%{color: #ddd;}
+ }
+
+.dot4{
+    animation-iteration-count:infinite ;
+    animation-duration: 10s;
+    animation-name: dot4
+}
+
+@keyframes dot4{
+    0%{color: #ddd;}
+    25%{color: #ddd;}
+    50%{color: #ddd;}
+    75%{color: #ddd;}
+    75%{color: #75C99C;}
+    100%{color: #75C99C;}
+}
+
+ .ul-dot li{
+     margin-left: 8px;
+     position: relative;
+ }
+
+.footer{
+    background-color: rgb(255, 248, 145);
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 0px 100px #fff, 0px 0px 100px #fff, 0px 0px 100px #fff, 0px 0px 100px #fff, 0px 0px 100px #fff;
+    text-align: center;
+    z-index: 300;
+}
+
+.footer-p{
+    position: relative;
+    top: 18px;
+    display: inline-block;
+
+}
+.fa-solid.fa-angle-down{
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+.section2{
+    width: 100%;
+    height: 325px;
+    position: absolute;
+    bottom: 50px;
+    z-index:100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    height: 325px;
+    width: 18%;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img2{
+    height: 250px;
+    width: 18%;
+    position: relative;
+    top: 90px;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img3{
+    height: 100px;
+    width: 18%;
+    position: relative;
+    top: 250px;
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.img4{
+    height: 250px;
+    width: 18%;
+    position: relative;
+    top: 90px;
+}
+.img4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img5{
+    height: 325px;
+    width: 18%;
+}
+.img5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.fa-solid.fa-circle-chevron-down{
+    position: absolute;
+    font-size: 45px;
+    right: 47.5%;
+    top: 570px;
+    z-index: 400;
+    animation: saltar 10s infinite;
+    cursor: pointer;
+}
+
+@keyframes saltar{
+    0%{color: rgb(40, 107, 200);}
+    10%{margin-top: -10px;}
+    20%{margin-top: 0px;}
+    25%{color:rgb(40, 107, 200);}
+    25%{color: #76B995;}   
+    30%{margin-top: -10px;} 
+    40%{margin-top: 0px;}
+    50%{margin-top: -10px;}
+    50%{color: #76B995;}
+    50%{color: #D5A51B;}
+    60%{margin-top: 0px;}
+    70%{margin-top: -10px;}
+    75%{color: #D5A51B;}
+    75%{color: #75C99C;}
+    80%{margin-top: 0px;}
+    90%{margin-top: -10px;}
+    100%{margin-top: 0px;}
+    100%{color: #75C99C;}
+}
+
+
+.div-grid{
+    position: relative;
+    top: 0;
+}
+
+
+.inicio2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: 1500;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.registro{
+    display: block;
+    margin: 20px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.inicioSesion{
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    background-color: red;
+    z-index: 0;
+    left: 30%;
+    top: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fff ;
+}
+.titulo{
+    margin-top: 25px;
+    margin-left: 20px;
+    color: #fff;
+    text-shadow:0 0 5px #000;
+}
+
+.tache{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 20px;
+    font-size:30px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 3px#000 ;
+}
+
+.inicio1{
+    display: none;
+}
